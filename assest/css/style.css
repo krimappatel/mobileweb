@@ -1,47 +1,170 @@
 boby{
-    box-sizing: border-box;
+    position: relative;
+    font-family: 'Lato';
+    font-style: normal;
 }
 .box{
-    height: 665px;
     background-color:  #E3E8ED;
+}
+.logo{
+    position: absolute;
+    margin-top:61px;
+    margin-left:163px;
+    width: 99px;
+    height: 32px;
 }
 .custom-col{
     position: absolute;
-    width: 400px; 
-    margin: 8% 10%;
+    width: 546px; 
+    top: 226px;
+    left: 163px;
 }
-.logo{
-    margin: 10% 40%;
+.paragraph{
+    position: absolute;
+    width: 453px;
+    height: 52px;
+    top: 352px;
+    left: 163px;
 }
-.cbox{
+.applestore{
+    position: absolute;
+    width: 156.05px;
+    height: 47px;
+    left: 163px;
+    top: 454px;
+}
+.playstore{
+    position: absolute;
+    width: 156.05px;
+    height: 47px;
+    left: 354.95px;
+    top: 454px;
+}
+.frame{
+    width: 993px;
+    height: 668px;
+    left: 484px;
+    top: 0px;
+}
+.custom-col1{
+    position: absolute;
+    height: 22px;
+    left: 797px;
+    top: 798px;
+}
+.paragraph1{
+    position: absolute;
+    width: 426px;
+    height: 37px;
+    left: 797px;
+    top: 847px;
+}
+.cbox-content{
+    position: absolute;
+    width: 407px;
+    height: 185px;
+    left: 797px;
+    top: 911px;
+}
+.link1{
+    position: absolute;
+    /* width: 582px; */
+    height: 22px;
+    left: 797px;
+    top: 1118px;
+}
+/* .frame1{
+    width:805px;
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
+} */
+.sample{
+    /* position: absolute; */
+    background-image: url('bgimage.png');
     height: 592px;
 }
 .sample_1{
     position: absolute;
+    width: 360px;
+    height: 218.06px;
+    left: 163px;
+    top: 774px;
 }
 .sample_2{
-    margin-left: 25%;
-    margin-top:32%;
+    position: absolute;
+    width: 360px;
+    height: 218.06px;
+    left: 269px;
+    top: 961px;
+
 }
-.dbox{
-    height: 716px;
+.custom-col2{
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 162px;
+    top: 1474px;
+}
+.paragraph2{
+    position: absolute;
+    width: 297px;
+    height: 37px;
+    left: 162px;
+    top: 1523px;
 }
 .dbox-content{
     position: absolute;
+    width: 480px;
+    height: 139px;
+    left: 162px;
+    top: 1587px;
+}
+.link2{
+    position: absolute;
+    width: 582px;
+    height: 22px;
+    left: 162px;
+    top: 1780px;
+}
+.frame2{
+    /* position: absolute;  */
+    height: 716px;
+    top: 1257px;
+}
+/* .dbox-content{
+    position: absolute;
     width: 500px;
     margin: 10%;
-}
+} */
 .ebox{
-    height: 735px;
+    position: absolute;
     color: #ffffff;
     background-image: url("eboxbg.png");
 }
+/* .custom-col3{
+    width: 508px;
+    height: 37px;
+    left: 466px;
+    top: 2049px;
+} */
+.fbox{
+    position: absolute;
+    top: 2714px;
+}
 .gbox{
+    position: absolute;
+    top: 3139px;
     background: #FAFAFA;
-    height:278px;
+}
+.hbox{
+    top: 3418px;
+    position: absolute;
 }
  a{
      text-decoration: none;
+ }
+ .custom-image{
+    width: 309px;
+    height: 161px;
  }
  .arrowr{
      position: absolute;
@@ -53,63 +176,7 @@ boby{
      left: 9%;
      margin-top: 4%;
  }
- /* *{
+ *{
      border: 1px solid red;
- } */
- @media (max-width:1200px) {
-     .ebox{
-         height:auto;
-         text-align: center;
-         background: #FAFAFA;
-         color: black;
-     }
-     .ebox ul{
-        list-style-type: none;
-     }
-     /* .box{
-         height: 500px;
-         width: auto;
-     }
-     .frame{
-         height: 100%;
-         width: 50%;
-     }
-     .custom-col{
-         width: 200px;
-         height: 200px;
-         position: absolute;
-     } */
-     .cbox,.dbox,.gbox,.hbox,.logo,.custom-col{
-         height: auto;
-         width: auto;
-         text-align: center;
-     }
-     .dbox-content{
-         width:fit-content;
-         position: relative;
-     }
-     /* .arrowr{
-         margin-right:5%;
-         margin-top: 15%;
-     } */
-     .sample_1{
-         width: 50%;
-         margin-top: 8%;
-     }
-     .sample_2{
-         width: 50%;
-         margin-bottom: 4%;
-     }
-     .sample{
-         background-image: url('bgimage.png');
-         object-fit: contain;
-     }
-     /* .flexbox{
-         width: 100%;
-         height: 50%;
-     } */
-     .applestore,.playstore{
-         width: 50%;
-         height: 50%;
-     }
  }
+ 
